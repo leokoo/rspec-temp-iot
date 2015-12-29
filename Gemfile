@@ -10,6 +10,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'puma'
+gem 'clearance'
 
 group :development, :test do
   gem 'byebug'
@@ -18,6 +19,7 @@ group :development, :test do
   gem 'guard-puma'
   gem 'rspec'
   gem 'rspec-rails'
+  gem 'factory_girl_rails'
 end
 
 group :development do
