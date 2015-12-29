@@ -61,6 +61,11 @@ GEM
       activemodel
     erubis (2.7.0)
     execjs (2.6.0)
+    factory_girl (4.5.0)
+      activesupport (>= 3.0.0)
+    factory_girl_rails (4.5.0)
+      factory_girl (~> 4.5.0)
+      railties (>= 3.0.0)
     ffi (1.9.10)
     formatador (0.2.5)
     globalid (0.3.6)
@@ -212,6 +217,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   clearance
+  factory_girl_rails
   guard
   guard-puma
   guard-rspec
