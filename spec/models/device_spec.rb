@@ -9,15 +9,15 @@ RSpec.describe Device, type: :model do
 	context "column list - " do
 		context "has the cloumn: " do
 			it "name" do
-				expect(device.name).not_to raise_error
+				expect{device.name}.not_to raise_error
 			end
 
 			it "address" do
-				expect(device.address).not_to raise_error
+				expect{device.address}.not_to raise_error
 			end
 
 			it "user_id" do
-				expect(device.user_id).not_to raise_error
+				expect{device.user_id}.not_to raise_error
 			end
 		end
 	end
